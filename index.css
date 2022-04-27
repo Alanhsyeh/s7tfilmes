@@ -69,18 +69,27 @@ img{
     padding: 20px;
     justify-content: center;
     align-items: center;
-    top: 150px;
+    top: 210px;
     left: 100px;
    
 }
 
+.dropdown{
+    position: relative;
+    margin
+}
+
+
+
 .searchBox{
     position: relative;
-    width: 400px;
+    width: 60px;
     height: 50px;
-    top: 80px;
+    top: 120px;
     left: 600px;
 }
+
+
 
 .searchBox::before{
     content: '';
@@ -159,4 +168,15 @@ img{
     20px 20px 15px rgba(0, 0, 0, 0.1),
     30px 30px 15px rgba(0, 0, 0, 0.1),
     inset 1px 1px 2px #fff
+}
+
+ion-icon
+{
+    position: absolute;
+    right: 20px;
+    top: 3px;
+    left: 294px;
+    color: #555;
+    font-size: 1.5em;
+    cursor: pointer;
 }
